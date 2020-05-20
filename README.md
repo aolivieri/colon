@@ -12,6 +12,14 @@ The notebook was executed using TensorFlow 2.2
 
 The dataset used here was downloaded from: https://github.com/tampapath/lung_colon_image_set
 
+### Contents
+
+colon.h5: a model trained with the proposed CNN in 10 epochs
+
+colon.ipynb: the notebook
+
+colon_image_sets: the dataset, with images split in 8000 for training and 2000 for validation.
+
 ## Author
 
 * **Alexandre Olivieri** - *Initial work* - (https://github.com/aolivieri)
