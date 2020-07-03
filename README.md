@@ -2,19 +2,27 @@
 
 Colorectal Cancer Classification using Deep Convolutional Networks
 
-In this work I am exploring two different appraoaches:
+In this work I am exploring the usage of artificial intelligence (in particular machine learning (in particular deep learning)) to assist in colon cancer detection. This type of cancer is the 2nd cause of deaths by cancer worldwide (862.000 deaths in 2018 - https://www.who.int/news-room/fact-sheets/detail/cancer). The second reason is that my wife is a coloproctologist and colonoscopist, so I feel the pain too.
 
-1. Histological samples.
+I am then looking into two different appraoaches:
 
-This is an experiment trying to explore the work described in the paper Colorectal Cancer Classification using Deep Convolutional Networks [https://www.scitepress.org/Papers/2018/66431/66431.pdf]. This seems to be more important to histopathology professionals, rather than colonoscopists or coloproctologists.
+**1. Histological samples**
 
+This is an experiment trying to explore the work described in the paper Colorectal Cancer Classification using Deep Convolutional Networks [https://www.scitepress.org/Papers/2018/66431/66431.pdf]. 
 
+This seems to be more important to histopathology professionals, rather than colonoscopists or coloproctologists.
+
+**2. Colonoscopy samples**
+
+This seems to be the of true value for colonoscopists if they are intergated into the current equipment used by them, i.e., if the machine can help the detection in real time, while the exam is on-going. The post-processing help is questionable, since the procedures try to cover as much as possible during the exam.
+
+Anyway, there is a dataset with 8000 labeled images (Ksavir) and so it enables further researches and experiments in this space. This is what I am trying to explore with this front #2.
 
 DISCLAIMER: Note that this work does not reproduce the papers literally and it doesn't not have any intention to the productized by any health professional neither be utilized by medical equipment manufacturers.
 
 ## Getting Started
 
-
+I have tried to keep everything self containted in the notebook. So it should be ready to go.
 
 ### Prerequisites
 
